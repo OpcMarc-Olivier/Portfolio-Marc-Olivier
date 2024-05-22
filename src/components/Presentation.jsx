@@ -4,7 +4,7 @@ import '../sass/components/presentation.scss'
 
 function Presentation() {
   const [typedText, setTypedText] = useState('')
-  const myText = "Je suis Marc-Olivier Perrois, \net je suis développeur web"
+  const myText = "Je suis Marc-Olivier Perrois, \nDéveloppeur web"
   const delay = 80
 
   useEffect(()=>{
@@ -20,15 +20,17 @@ function Presentation() {
 
   return (
     <div className='presentation'>
-         <h1 className='title'>{
-        typedText.split('\n').map((line,index)=>(
-          <React.Fragment key={index} >
-            {line}
-            {index!== typedText.split('\n').length -1 && <br/>}
-          </React.Fragment>
-        ))
-        }
-        </h1>
+         <div className='typing-animation'>
+           <h1 className='title'>{
+             typedText.split('\n').map((line,index)=>(
+                  <React.Fragment key={index} >
+                    {line}
+                    {index!== typedText.split('\n').length -1 && <br/>}
+                  </React.Fragment>
+                ))
+              }
+            </h1>
+         </div>
         <div className="arrow-down">
           <a href="/#work">
             <FaAngleDown/>

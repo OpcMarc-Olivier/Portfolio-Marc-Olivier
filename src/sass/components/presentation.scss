@@ -1,4 +1,49 @@
+@use '../abstracts/variables.scss' as *;
+
+
+@keyframes moveArrow {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
 .presentation{
    height: 100vh;
-   background: green;
+   background:url('../../assets/images/Portrait-Marco-2024-bw.png'),$bg-color-header;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-position: 0 0, 0 0;
+   color: $font_color;
+
+   .typing-animation{
+      height: 100vh;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      margin: 0 5%;
+      
+
+      h1 {
+         position: relative;
+         right: 0;
+         font-size: 2.5rem;
+         letter-spacing: 0.08em;
+         line-height: 1.5;
+         text-align: right;
+      }
+   }
+
+   .arrow-down {
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      bottom: 60px;
+      left: 50%;
+      font-size: 4rem;
+      animation: moveArrow 1.5s ease-out 0s infinite;
+      font-size: 4rem;
+   }
+
 }
