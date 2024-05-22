@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Marc-Olivier/static/css/main.2d9f9ce9.css",
+    "main.js": "/Portfolio-Marc-Olivier/static/js/main.57d0cdd5.js",
+    "index.html": "/Portfolio-Marc-Olivier/index.html",
+    "main.2d9f9ce9.css.map": "/Portfolio-Marc-Olivier/static/css/main.2d9f9ce9.css.map",
+    "main.57d0cdd5.js.map": "/Portfolio-Marc-Olivier/static/js/main.57d0cdd5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d9f9ce9.css",
+    "static/js/main.57d0cdd5.js"
+  ]
+}
