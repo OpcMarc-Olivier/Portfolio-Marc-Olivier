@@ -1,1 +1,23 @@
-$color : red;
+//COLORS
+
+$blue-green: #1a7376 ;
+$sand-color: #c7c78b;
+$white:#F2F2F2;
+$black:#000000;
+$red:#D64045;
+$gradient: linear-gradient(90deg, $blue-green 0%, $sand-color 100%);
+
+$font_color: $white;
+$bg-color-body: $white;
+$bg-color-header:$gradient;
+
+// FONTS 
+
+$font-family: "Montserrat", sans-serif;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-semiBold: 600;
+$font-weight-bold: 700;
+$font-weight-heavy: 800;
