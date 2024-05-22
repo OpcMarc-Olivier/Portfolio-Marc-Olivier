@@ -12,14 +12,14 @@ function Nav() {
   const handleShowLinks = ()=>{
     setShowLinks(!showLinks)
   }
-  
+
   return (
     <header className={`nav ${showLinks? "show-nav" : "hide-nav"}`}>
-     <a href='/portfolio/' className='nav__logo'>Marc-Olivier Perrois</a>  
+     <a href='/Portfolio-Marc-Olivier/' className='nav__logo'>Marc-Olivier Perrois</a>  
       <ul className='nav__links'>
          <li className="nav__item">
           <Link
-            to="/portfolio/#accueil"
+            to="/Portfolio-Marc-Olivier/#accueil"
             className="nav__link"
             
           >
@@ -28,7 +28,7 @@ function Nav() {
         </li>
           <li className="nav__item">
           <Link
-            to="/portfolio/#works"
+            to="/Portfolio-Marc-Olivier/#works"
             className="nav__link"
            
           >
@@ -37,7 +37,7 @@ function Nav() {
         </li>
         <li className="nav__item">
           <Link
-            to="/portfolio/#about"
+            to="/Portfolio-Marc-Olivier/#about"
             className="nav__link"
             
           >
@@ -46,7 +46,7 @@ function Nav() {
         </li>
         <li className="nav__item">
           <Link
-            to="/portfolio/#contact"
+            to="/Portfolio-Marc-Olivier/#contact"
             className="nav__link"
             
           >
