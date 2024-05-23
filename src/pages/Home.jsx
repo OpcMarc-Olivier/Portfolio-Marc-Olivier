@@ -9,11 +9,11 @@ function Home() {
 
 
   return (
-    <div className='home' id='accueil'>
+    <div className='home' id="accueil">
        <div className="main__section">
           <Presentation/>
       </div>
-       <div className='main__section works' id='works' >
+       <div className='main__section works' id="works" >
           <h2>Works</h2>
           <p>
           Projets réalisés dans le cadre de ma formation en tant que
