@@ -6,7 +6,7 @@ function Card({ project, id }) {
 
   return (
     // Utilisation de React Router DOM pour créer un lien réactif vers la page spécifique de chaque projet en fonction de son id
-    <a href={`/portfolio/${id}`} className="projectCard">
+    <a href={`/Portfolio-Marc-Olivier/${id}`} className="projectCard">
       <h2>{title}</h2>
       <span></span>
       <img src={cover} alt={title} />

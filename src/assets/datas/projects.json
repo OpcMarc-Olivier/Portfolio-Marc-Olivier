@@ -68,7 +68,7 @@
     "pictures": [
       "https://raw.githubusercontent.com/OpcMarc-Olivier/crazy-burger2/main/src/assets/images/project/crazy-burger-mockup.webp"
     ],
-    "description": "Crazy Burger est mon premier side-project en cours de développement. Il s'agit d'un site de commande de burger implémenté avec le framework React et Firebase pour la partie backend. Mon objectif sur ce projet est d'approfondir mes connaissances sur React mais également de s'approprier les bonnes pratiques en utilisées en entreprise, notamment sur le travail des branches avec le workflow git.",
+    "description": "Crazy Burger est mon premier side-project en cours de développement. Il s'agit d'un site de commande de burger implémenté avec le framework React et Firebase pour la partie backend. Mon objectif sur ce projet est d'approfondir mes connaissances sur React mais également de s'approprier les bonnes pratiques utilisées en entreprise, notamment sur le travail des branches avec le workflow git.",
     "mission": "Développement d'un site de vente de burger",
     "tags": ["Vite", "React", "Firebase"],
     "github": "https://github.com/OpcMarc-Olivier/crazy-burger2.git"

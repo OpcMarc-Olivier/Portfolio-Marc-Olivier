@@ -54,16 +54,16 @@
 }
 
 .blue {
-    color: #467599;
-    border: 2px solid #467599;
+    color: $blue-green;
+    border: 2px solid $blue-green;
 
     &:visited{
-        color: #467599;
+        color: $blue-green;
     }
 
     &:hover{
       border-color: transparent;
-      background-color: #467599;
+      background-color: $blue-green;
       color: white;
     }
 }
