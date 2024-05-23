@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portfolio-Marc-Olivier/static/css/main.41dfd00f.css",
-    "main.js": "/Portfolio-Marc-Olivier/static/js/main.ce903cc5.js",
+    "main.css": "/Portfolio-Marc-Olivier/static/css/main.7e41c81e.css",
+    "main.js": "/Portfolio-Marc-Olivier/static/js/main.aacf81d1.js",
     "static/media/Portrait-Marco-2024-bw.png": "/Portfolio-Marc-Olivier/static/media/Portrait-Marco-2024-bw.e9af62a197478945c8f1.png",
     "index.html": "/Portfolio-Marc-Olivier/index.html",
-    "main.41dfd00f.css.map": "/Portfolio-Marc-Olivier/static/css/main.41dfd00f.css.map",
-    "main.ce903cc5.js.map": "/Portfolio-Marc-Olivier/static/js/main.ce903cc5.js.map"
+    "main.7e41c81e.css.map": "/Portfolio-Marc-Olivier/static/css/main.7e41c81e.css.map",
+    "main.aacf81d1.js.map": "/Portfolio-Marc-Olivier/static/js/main.aacf81d1.js.map"
   },
   "entrypoints": [
-    "static/css/main.41dfd00f.css",
-    "static/js/main.ce903cc5.js"
+    "static/css/main.7e41c81e.css",
+    "static/js/main.aacf81d1.js"
   ]
 }
