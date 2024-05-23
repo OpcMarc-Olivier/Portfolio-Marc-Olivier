@@ -3,13 +3,16 @@ import Presentation from '../components/Presentation'
 import  '../sass/pages/home.scss'
 import projectsData from '../assets/datas/projects.json'
 import Card from "../components/Card";
+import About from "../components/About";
+import Contact from "../components/Contact";
+
 
 
 function Home() {
 
 
   return (
-    <div className='home' id="accueil">
+    <div className='home__main' id="accueil">
        <div className="main__section">
           <Presentation/>
       </div>
@@ -36,7 +39,15 @@ function Home() {
           ))}
         </div>
        </div>
+       <div className ='main__section about' id='about'>
+         <h2>A propos</h2>
+        <About />
+       </div>
+       <div className ='main__section contact' id='contact'>
+        <Contact/>
+       </div>
     </div>
+
   )
 }
 

@@ -4,6 +4,7 @@ import './index.scss';
 import App from './App';
 import Nav from './layout/Nav'
 import { BrowserRouter } from 'react-router-dom';
+import Footer from './layout/Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -11,6 +12,7 @@ root.render(
     <BrowserRouter>
       <Nav/>
       <App />
+      <Footer/>
     </BrowserRouter>
   </React.StrictMode>
 );

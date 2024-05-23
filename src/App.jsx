@@ -6,6 +6,7 @@ function App() {
       <Routes>
         <Route path='/Portfolio-Marc-Olivier' element={<Home/>}/>
         <Route path='/Portfolio-Marc-Olivier/home' element={<Home/>}/>
+        <Route path='/Portfolio-Marc-Olivier/marc-olivier-perrois-cv-2023.pdf'/>
       </Routes>
   );
 }

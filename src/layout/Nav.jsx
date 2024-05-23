@@ -10,7 +10,6 @@ function Nav() {
   const [showLinks, setShowLinks] = useState(false);
   const location = useLocation()
 
-  console.log(location);
   const handleShowLinks = ()=>{
     setShowLinks(!showLinks)
   }

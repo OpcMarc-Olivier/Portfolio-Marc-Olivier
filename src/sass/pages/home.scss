@@ -1,6 +1,7 @@
 @use '../abstracts/variables.scss' as *;
-.home{
-    background: $bg-color-body;
+
+.home__main{
+   background: $bg-color-header;
 }
 
 .main__section{
@@ -9,6 +10,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: $font_color;
 
     h2 {
         margin: 25px 0;
@@ -50,6 +52,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+
      }
      &.contact{
         h2{
