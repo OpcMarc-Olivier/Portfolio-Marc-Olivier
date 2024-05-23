@@ -44,6 +44,7 @@ function Home() {
         <About />
        </div>
        <div className ='main__section contact' id='contact'>
+        <h2>Contact</h2>
         <Contact/>
        </div>
     </div>

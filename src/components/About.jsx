@@ -41,7 +41,7 @@ function About() {
           <FaGithub />
         </div>
       </div>
-      <Button link={pdfPath} text={'VOIR MON CV'} className={'black'} />
+      <Button link={pdfPath} text={'VOIR MON CV'} className={'white'} />
     </div>
   )
 }
