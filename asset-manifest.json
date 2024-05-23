@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio-Marc-Olivier/static/css/main.7e41c81e.css",
-    "main.js": "/Portfolio-Marc-Olivier/static/js/main.aacf81d1.js",
+    "main.css": "/Portfolio-Marc-Olivier/static/css/main.04f3111b.css",
+    "main.js": "/Portfolio-Marc-Olivier/static/js/main.99c4044f.js",
     "static/media/Portrait-Marco-2024-bw.png": "/Portfolio-Marc-Olivier/static/media/Portrait-Marco-2024-bw.e9af62a197478945c8f1.png",
+    "static/media/portrait-cercle-marco-2024.webp": "/Portfolio-Marc-Olivier/static/media/portrait-cercle-marco-2024.c12c153da90225a66648.webp",
     "index.html": "/Portfolio-Marc-Olivier/index.html",
-    "main.7e41c81e.css.map": "/Portfolio-Marc-Olivier/static/css/main.7e41c81e.css.map",
-    "main.aacf81d1.js.map": "/Portfolio-Marc-Olivier/static/js/main.aacf81d1.js.map"
+    "main.04f3111b.css.map": "/Portfolio-Marc-Olivier/static/css/main.04f3111b.css.map",
+    "main.99c4044f.js.map": "/Portfolio-Marc-Olivier/static/js/main.99c4044f.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e41c81e.css",
-    "static/js/main.aacf81d1.js"
+    "static/css/main.04f3111b.css",
+    "static/js/main.99c4044f.js"
   ]
 }
