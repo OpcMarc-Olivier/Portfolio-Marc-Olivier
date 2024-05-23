@@ -30,7 +30,6 @@ function Nav() {
           <Link
             to="/Portfolio-Marc-Olivier/#works"
             className="nav__link"
-           
           >
             PORTFOLIO
           </Link>

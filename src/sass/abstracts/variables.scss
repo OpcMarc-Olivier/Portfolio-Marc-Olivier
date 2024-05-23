@@ -1,7 +1,9 @@
 //COLORS
 
 $blue-green: #1a7376 ;
+$blue-green-transparent: rgb(26, 115, 118,0.4);
 $sand-color: #c7c78b;
+$sand-color-transparent: rgb(199, 199, 139,0.4);
 $white:#F2F2F2;
 $black:#000000;
 $red:#D64045;
@@ -10,6 +12,7 @@ $gradient: linear-gradient(90deg, $blue-green 0%, $sand-color 100%);
 $font_color: $white;
 $bg-color-body: $white;
 $bg-color-header:$gradient;
+$bg-color-hover: $blue-green-transparent;
 
 // FONTS 
 

@@ -1,6 +1,18 @@
 @use '../abstracts/variables.scss' as *;
 
-
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
 @keyframes moveArrow {
   0%, 100% {
     transform: translateY(0);
@@ -11,6 +23,7 @@
 }
 .presentation{
    height: 100vh;
+   width: 100vw;
    background:url('../../assets/images/Portrait-Marco-2024-bw.png'),$bg-color-header;
    background-size: contain;
    background-repeat: no-repeat;
@@ -32,6 +45,7 @@
          letter-spacing: 0.08em;
          line-height: 1.5;
          text-align: right;
+         animation: typing steps(22), blink 0.5s step-end alternate;
       }
    }
 
